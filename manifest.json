@@ -1,0 +1,13 @@
+{
+ "manifest_version": 2,
+ "name": "TruismExtension",
+ "description": "Random Hex Color Combined With Random Jenny Holzer Truism.",
+ "version": "1",
+"browser_action": {
+   "default_title": "Word."
+ },
+"chrome_url_overrides" : {
+  "newtab": "index.html"
+},
+ "permissions": ["activeTab"]
+}
